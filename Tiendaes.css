@@ -1,0 +1,207 @@
+html,body {
+	margin: 0px;
+	
+}
+body {
+    /* The image used */
+    background-image: url('http://www.todopaisajes.com/Imagenes/paisaje-rural-del-campo.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#todo{
+	border: 5px solid black;
+	width: 75%;
+	margin: auto;
+	height: 150%;
+	background-color: white;
+	background-size: cover;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	width: 100%;
+	
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#logo {
+	width: 40%;
+	height:auto;
+	float: left;
+	margin: auto;
+}
+
+#logo img{
+	width: 400px;
+}
+.banner img{
+	height:350px;
+	width: 1011px;
+	background: center center no-repeat;
+	background-size: cover;
+}
+#Botella{
+	width:240px;
+	height:275px;
+}
+#Lata{
+	width:300px;
+	height:220px;
+}
+#Bidon{
+	width:300px;
+	height:275px;
+}
+#divTotal{
+ background:GoldenRod;
+ }
+ #divDatos{
+ background:GoldenRod;
+ font-family: fantasy;
+ }
+ 
+ #divPago{
+ height: 150px;
+ padding-left:10px;
+ background:GoldenRod;
+ font-family: fantasy;
+ }
+ 
+ #divDatosPersonales0 {
+ position:relative;
+ left:0px;
+ padding:0px 0px 0px 10px;
+ width:440px;
+ height:140px;
+ font-family: fantasy;
+ }
+ 
+ #divDatosPersonales1 {
+ position:relative;
+ width:230px;
+ height:130px;
+ font-family: fantasy;
+ }
+ 
+ #divDatosPersonales2 {
+ position:relative;
+ top:-130px;
+ left:260px;
+ width:200px;
+ height:130px;
+ font-family: fantasy;
+ }
+ 
+ #divDomicilio{
+ padding:0px 0px 0px 10px;
+ font-family: fantasy;
+ }
+ footer{
+	background-color: black;
+	padding-bottom: 200px; 
+	color: white;
+	width: 1015px;
+	margin: 10px 0px 0px 0px;
+}
+.container {
+	width: 1000px;
+	margin: 0px auto; 
+}
+footer div.container > div{ 
+	width: 25%;
+	float: left;
+	padding: 25px;
+}
+footer h3{
+	margin-top: 0px;
+}
+
+footer .container div:last-child{
+	text-align: center;
+}
+
+footer .container div:first-child{
+	font-size: 0.9em;
+
+}
+
+footer textarea, footer input[type="text"], footer input[type="submit"], footer input[type="email"], footer input[type="password"]{
+	width: 100%; 
+	padding: 3px; 
+}
+
+footer textarea{
+	height: 150px;
+
+}
+.icons img {
+	height:50px;
+	width:50px;
+}
+.clearfix {
+	content: '';
+	clear: both;
+	height: 1px;
+}
